@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Makaroni Gamon - Bikin Nangis, Anti Redflag. Nikmati cemilan makaroni pedas dengan berbagai varian rasa yang nagih dan renyah.">
+<link rel="icon" type="image/png" href="{{ asset('gamon_logo.png') }}">
 <title>Makaroni Gamon | Bikin Nangis, Anti Redflag</title>
 <!-- Google Fonts for Modern Typography -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,8 +18,7 @@
 <header class="site-header" id="navbar">
   <div class="header-container">
     <div class="logo">
-      <span class="logo-main">GAMON</span>
-      <span class="logo-sub">Makaroni Pedas</span>
+      <img src="{{ asset('gamon_logo.png') }}" alt="Makaroni Gamon Logo" class="logo-img">
     </div>
     <nav class="navbar-menu">
       <a href="#menu" class="nav-link">Varian Rasa</a>
@@ -46,8 +46,18 @@
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="floating-snack pack-1">📦 Makaroni Pedas Gila</div>
-                <div class="floating-snack pack-2">📦 Makaroni Keju Asin</div>
+                <div class="floating-snack pack-1">
+                  <img src="{{ asset('makaroni_pipa.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Makaroni Pipa</div>
+                </div>
+                <div class="floating-snack pack-2">
+                  <img src="{{ asset('makaroni_spiral.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Makaroni Spiral</div>
+                </div>
+                <div class="floating-snack pack-3">
+                  <img src="{{ asset('mie_gulung.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Mie Gulung</div>
+                </div>
             </div>
         </div>
     </section>
