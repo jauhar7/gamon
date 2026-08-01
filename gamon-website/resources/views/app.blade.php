@@ -272,35 +272,96 @@
 
   <!-- FIND US -->
   <section class="findus-section scroll-animate fade-up" id="lokasi">
-    <div class="section-header">
-      <h2>Temukan Kami di Kotamu!</h2>
-      <p>Kunjungi outlet terdekat atau pesan online via aplikasi favoritmu.</p>
-    </div>
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Temukan Outlet Kami!</h2>
+    <p style="text-align:center; max-width:600px; margin:0 auto 2rem; color:#666;">Kunjungi outlet Makaroni Gamon
+      terdekat dari tempatmu atau cek review kami di Google Maps melalui link berikut:</p>
 
-    <div class="outlet-grid">
-      <div class="outlet-card">
-        <div class="outlet-city">📍 Cabang Solo</div>
-        <h4>Gamon Supomo</h4>
-        <p>Jl. Prof. Dr. Supomo No. 49, Solo<br>Buka: 10.00 - 22.00 WIB</p>
-        <a href="#" class="btn-location">Lihat Peta</a>
+    <div class="outlet-list" style="display:flex; flex-direction:column; gap:2rem;">
+      <!-- Cabang 1 -->
+      <div class="outlet-card solo-card"
+        style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:2rem; padding:2rem; background:#fffcf7;">
+        <div style="flex:1 1 300px;">
+          <h3 style="font-size:1.8rem; margin-bottom:1rem; color:#333;">Makaroni Gamon</h3>
+          <p style="color:#666; font-size:1rem; line-height:1.6; margin-bottom:1.5rem;">
+            Alamat : Jl. Duwet IX No. 13<br>
+            Jam buka : Setiap hari jam 10.00 – 21.00 WIB
+          </p>
+          <a href="https://share.google/iJVGXvU8MjkPy9WbH" target="_blank" class="btn-loc"
+            style="background:#2ecc71; border-radius:8px; padding:10px 20px; font-size:1rem; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+            📍 Buka di Google Maps
+          </a>
+        </div>
+        <div
+          style="flex:1 1 350px; border-radius:12px; overflow:hidden; min-height:250px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+          <iframe src="https://maps.google.com/maps?q=Makaroni+Gamon,+Jl.+Duwet+IX+No.13,+Surakarta&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0;"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
-      <div class="outlet-card">
-        <div class="outlet-city">📍 Cabang Solo</div>
-        <h4>Gamon Solo Square</h4>
-        <p>Solo Square Mall Lt.3 (Foodcourt)<br>Buka: 10.00 - 21.00 WIB</p>
-        <a href="#" class="btn-location">Lihat Peta</a>
+
+      <!-- Cabang 2 -->
+      <div class="outlet-card solo-card"
+        style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:2rem; padding:2rem; background:#fffcf7;">
+        <div style="flex:1 1 300px;">
+          <h3 style="font-size:1.8rem; margin-bottom:1rem; color:#333;">Makaroni Gamon UNS</h3>
+          <p style="color:#666; font-size:1rem; line-height:1.6; margin-bottom:1.5rem;">
+            Alamat : Jl. Ki Hajar Dewantara No. 25<br>
+            Jam buka : Setiap hari jam 10.00 – 21.00 WIB
+          </p>
+          <a href="https://share.google/kB3Zefh4utWlqEB4H" target="_blank" class="btn-loc"
+            style="background:#2ecc71; border-radius:8px; padding:10px 20px; font-size:1rem; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+            📍 Buka di Google Maps
+          </a>
+        </div>
+        <div
+          style="flex:1 1 350px; border-radius:12px; overflow:hidden; min-height:250px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+          <iframe src="https://maps.google.com/maps?q=Makaroni+Gamon+UNS,+Jl.+Ki+Hajar+Dewantara+No.25&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
-      <div class="outlet-card">
-        <div class="outlet-city">📍 Cabang Jogja</div>
-        <h4>Gamon Seturan</h4>
-        <p>Jl. Selokan Mataram No. 1, Jogja<br>Buka: 11.00 - 23.00 WIB</p>
-        <a href="#" class="btn-location">Lihat Peta</a>
+
+      <!-- Cabang 3 -->
+      <div class="outlet-card solo-card"
+        style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:2rem; padding:2rem; background:#fffcf7;">
+        <div style="flex:1 1 300px;">
+          <h3 style="font-size:1.8rem; margin-bottom:1rem; color:#333;">Makaroni Gamon Penumping</h3>
+          <p style="color:#666; font-size:1rem; line-height:1.6; margin-bottom:1.5rem;">
+            Alamat : Jl. Kebangkitan Nasional No. 56<br>
+            Jam buka : Setiap hari jam 10.00 – 21.00 WIB
+          </p>
+          <a href="https://share.google/nRiedCuHZwtt7AMUj" target="_blank" class="btn-loc"
+            style="background:#2ecc71; border-radius:8px; padding:10px 20px; font-size:1rem; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+            📍 Buka di Google Maps
+          </a>
+        </div>
+        <div
+          style="flex:1 1 350px; border-radius:12px; overflow:hidden; min-height:250px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+          <iframe src="https://maps.google.com/maps?q=Makaroni+Gamon+Penumping,+Jl.+Kebangkitan+Nasional+No.56&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
-      <div class="outlet-card">
-        <div class="outlet-city">📍 Cabang Jogja</div>
-        <h4>Gamon Malioboro</h4>
-        <p>Plaza Malioboro Lt.3<br>Buka: 10.00 - 22.00 WIB</p>
-        <a href="#" class="btn-location">Lihat Peta</a>
+
+      <!-- Cabang 4 -->
+      <div class="outlet-card solo-card"
+        style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:2rem; padding:2rem; background:#fffcf7;">
+        <div style="flex:1 1 300px;">
+          <h3 style="font-size:1.8rem; margin-bottom:1rem; color:#333;">Makaroni Gamon Nusukan</h3>
+          <p style="color:#666; font-size:1rem; line-height:1.6; margin-bottom:1.5rem;">
+            Alamat : Nusukan<br>
+            Jam buka : Setiap hari jam 10.00 – 21.00 WIB
+          </p>
+          <a href="https://share.google/5HF86FQ65OHtXJRuX" target="_blank" class="btn-loc"
+            style="background:#2ecc71; border-radius:8px; padding:10px 20px; font-size:1rem; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+            📍 Buka di Google Maps
+          </a>
+        </div>
+        <div
+          style="flex:1 1 350px; border-radius:12px; overflow:hidden; min-height:250px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+          <iframe src="https://maps.google.com/maps?q=Makaroni+Gamon+Nusukan,+Surakarta&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
     </div>
   </section>
@@ -324,9 +385,9 @@
       <p>📞 0812-3456-7890</p>
       <p>✉️ halo@makaronigamon.com</p>
       <div class="social-icons">
-        <a href="#" title="Instagram">IG</a>
-        <a href="#" title="TikTok">TK</a>
-        <a href="#" title="WhatsApp">WA</a>
+        <a href="https://www.instagram.com/makaronigamon.id/" target="_blank" title="Instagram">IG</a>
+        <a href="https://www.tiktok.com/@makaronigamon.id" target="_blank" title="TikTok">TK</a>
+        <a href="https://api.whatsapp.com/send?phone=6285800693356" target="_blank" title="WhatsApp">WA</a>
       </div>
     </div>
   </div>
