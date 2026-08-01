@@ -21,10 +21,18 @@
       <img src="{{ asset('gamon_logo.png') }}" alt="Makaroni Gamon Logo" class="logo-img">
     </div>
     <nav class="navbar-menu">
-      <a href="#menu" class="nav-link">Varian Rasa</a>
-      <a href="#benefits" class="nav-link">Kenapa Gamon?</a>
-      <a href="#testimoni" class="nav-link">Testimoni</a>
-      <a href="#lokasi" class="nav-link">Lokasi</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="nav-links">
+        <a href="#menu" class="nav-link">Varian Rasa</a>
+        <a href="#benefits" class="nav-link">Kenapa Gamon?</a>
+        <a href="#testimoni" class="nav-link">Testimoni</a>
+        <a href="#lokasi" class="nav-link">Lokasi</a>
+      </div>
     </nav>
     <a href="#menu" class="btn-primary nav-cta">Pesan Sekarang</a>
   </div>
@@ -57,6 +65,34 @@
                 <div class="floating-snack pack-3">
                   <img src="{{ asset('mie_gulung.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
                   <div class="caption">Mie Gulung</div>
+                </div>
+                <div class="floating-snack pack-4">
+                  <img src="{{ asset('keripik_kaca.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Keripik Kaca</div>
+                </div>
+                <div class="floating-snack pack-5">
+                  <img src="{{ asset('jengkol.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Jengkol</div>
+                </div>
+                <div class="floating-snack pack-6">
+                  <img src="{{ asset('usus.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Usus</div>
+                </div>
+                <div class="floating-snack pack-7">
+                  <img src="{{ asset('siomay_kering.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Usus Kering</div>
+                </div>
+                <div class="floating-snack pack-8">
+                  <img src="{{ asset('sosis.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Sosis</div>
+                </div>
+                <div class="floating-snack pack-9">
+                  <img src="{{ asset('krupuk_seblak.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Kerupuk Seblak</div>
+                </div>
+                <div class="floating-snack pack-10">
+                  <img src="{{ asset('otak_otak.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                  <div class="caption">Otak otak</div>
                 </div>
             </div>
         </div>
@@ -101,7 +137,7 @@
           <span class="menu-tag">Best Seller</span>
         </div>
         <div class="menu-info">
-          <h3>Pedas Gila (Level 5)</h3>
+          <h3>Original Gamon</h3>
           <p>Cocok buat kamu yang suka tantangan. Pedasnya nampol, bikin keringetan!</p>
           <a href="#" class="btn-outline">Order Sekarang</a>
         </div>
@@ -112,7 +148,7 @@
           <div class="menu-img pedas-santuy">🌶️</div>
         </div>
         <div class="menu-info">
-          <h3>Pedas Santuy (Level 2)</h3>
+          <h3>BBQ</h3>
           <p>Pedasnya pas, gurihnya mantap. Cocok untuk nemenin nonton drakor.</p>
           <a href="#" class="btn-outline">Order Sekarang</a>
         </div>
@@ -124,7 +160,7 @@
           <span class="menu-tag">Kids Friendly</span>
         </div>
         <div class="menu-info">
-          <h3>Keju Asin Gurih</h3>
+          <h3>Keju</h3>
           <p>Perpaduan keju premium dan rasa asin yang bikin gak mau berhenti ngunyah.</p>
           <a href="#" class="btn-outline">Order Sekarang</a>
         </div>
@@ -135,8 +171,28 @@
           <div class="menu-img balado">🍅</div>
         </div>
         <div class="menu-info">
-          <h3>Balado Jeruk</h3>
+          <h3>Balado</h3>
           <p>Rasa manis, pedas, dan aroma daun jeruk yang wangi banget.</p>
+          <a href="#" class="btn-outline">Order Sekarang</a>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img-wrap">
+          <div class="menu-img jagung-manis">🍅</div>
+        </div>
+        <div class="menu-info">
+          <h3>Jagung Manis</h3>
+          <p>Rasa jagung manis yang enak banget.</p>
+          <a href="#" class="btn-outline">Order Sekarang</a>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img-wrap">
+          <div class="menu-img rumput-laut">🍅</div>
+        </div>
+        <div class="menu-info">
+          <h3>Rumput Laut</h3>
+          <p>Rasa rumput laut yang enak banget.</p>
           <a href="#" class="btn-outline">Order Sekarang</a>
         </div>
       </div>

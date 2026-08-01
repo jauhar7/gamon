@@ -112,4 +112,31 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // 5. Floating snack fan interaction
+  const snackCards = document.querySelectorAll('.floating-snack');
+  let topZ = snackCards.length + 20; // nilai awal z-index tertinggi
+
+  snackCards.forEach(card => {
+    // simpan z-index default dari CSS
+    card.dataset.baseZ = getComputedStyle(card).zIndex;
+
+    card.addEventListener('click', () => {
+      // reset semua card ke posisi default
+      snackCards.forEach(item => {
+        item.classList.remove('is-active');
+        item.style.zIndex = item.dataset.baseZ;
+      });
+
+      // aktifkan card yang diklik
+      card.classList.add('is-active');
+      card.style.zIndex = ++topZ; // naikkan z-index supaya paling atas
+    });
+  });
+
+  // set default card pertama aktif
+  if (snackCards.length) {
+    snackCards[0].classList.add('is-active');
+    snackCards[0].style.zIndex = ++topZ;
+  }
 });
