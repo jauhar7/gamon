@@ -336,10 +336,9 @@
 
   <!-- FIND US -->
   <section class="findus-section scroll-animate fade-up" id="lokasi">
-    <div class="section-header">
-      <h2>Temukan Kami di Kotamu!</h2>
-      <p>Kunjungi outlet terdekat atau pesan online via aplikasi favoritmu.</p>
-    </div>
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Temukan Outlet Kami!</h2>
+    <p style="text-align:center; max-width:600px; margin:0 auto 2rem; color:#666;">Kunjungi outlet Makaroni Gamon
+      terdekat dari tempatmu atau cek review kami di Google Maps melalui link berikut:</p>
 
     <div class="outlet-grid">
       <div class="outlet-card">
