@@ -234,15 +234,27 @@ a, button, .pill, .chip, .stepper-btn, .accordion-header,
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 90px;
   width: 100%;
 }
 
 .hero-text {
   flex: 1;
   max-width: 600px;
+}
+
+.row-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-ngemilmu{
+    display: none;
 }
 
 .badge {
@@ -1439,7 +1451,14 @@ a, button, .pill, .chip, .stepper-btn, .accordion-header,
         left: 2.5%;
         top: 0;
     }
+    .row-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
     .menu-ngemilmu{
+        display: block;
         max-height: 80px;
         align-content: center !important;
         padding: 3% 1%;

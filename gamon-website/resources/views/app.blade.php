@@ -16,41 +16,41 @@
 
 <!-- HEADER -->
 <header class="site-header" id="navbar">
-  <div class="header-container">
-    <div class="logo">
-      <img src="{{ asset('gamon_logo.png') }}" alt="Makaroni Gamon Logo" class="logo-img">
+    <div class="header-container">
+        <div class="logo">
+            <img src="{{ asset('gamon_logo.png') }}" alt="Makaroni Gamon Logo" class="logo-img">
+        </div>
+        <nav class="navbar-menu">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            </label>
+            <div class="nav-links">
+                <a href="#menu" class="nav-link">Varian Rasa</a>
+                <a href="#benefits" class="nav-link">Kenapa Gamon?</a>
+                <a href="#testimoni" class="nav-link">Testimoni</a>
+                <a href="#lokasi" class="nav-link">Lokasi</a>
+                <a href="#pesan" class="nav-link">Mulai Pesan</a>
+            </div>
+        </nav>
+        <a href="#pesan" class="btn-primary nav-cta">Pesan Sekarang</a>
     </div>
-    <nav class="navbar-menu">
-      <input type="checkbox" id="menu-toggle" class="menu-toggle">
-      <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-      <div class="nav-links">
-        <a href="#menu" class="nav-link">Varian Rasa</a>
-        <a href="#benefits" class="nav-link">Kenapa Gamon?</a>
-        <a href="#testimoni" class="nav-link">Testimoni</a>
-        <a href="#lokasi" class="nav-link">Lokasi</a>
-        <a href="#pesan" class="nav-link">Mulai Pesan</a>
-      </div>
-    </nav>
-    <a href="#pesan" class="btn-primary nav-cta">Pesan Sekarang</a>
-  </div>
 </header>
 
 <main>
-  <!-- HERO -->
-    <section class="hero scroll-animate fade-up">
-        <div class="hero-bg"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
+<section class="hero scroll-animate fade-up">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <div class="row-wrapper">
             <div class="hero-text">
                 <span>Paling Pedas, Paling Renyah!</span>
                 <h1>Bikin Nangis,<br>Anti <span class="highlight">Redfleq.</span></h1>
                 <p>Cemilan makaroni pedas nomor satu yang bakal bikin kamu gagal move on dari rasanya. Berani coba level pedas tertingginya?</p>
                 <div class="hero-actions">
-                    <a href="#pesan" class="btn-primary">Pilih Rasa Favoritmu</a>
+                    <a href="#pesan" class="btn-primary">Pesan Sekarang</a>
                     <a href="#testimoni" class="btn-secondary">Lihat Kata Mereka</a>
                 </div>
             </div>
@@ -58,57 +58,55 @@
                 <h1>Menu Ngemilmu</h1>
             </div>
             <div class="hero-visual">
-              <div class="floating-snack pack-1">
-                <img src="{{ asset('makaroni_pipa.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Makaroni Pipa</div>
-              </div>
-              <div class="floating-snack pack-2">
-                <img src="{{ asset('makaroni_spiral.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Makaroni Spiral</div>
-              </div>
-              <div class="floating-snack pack-3">
-                <img src="{{ asset('mie_gulung.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Mie Gulung</div>
-              </div>
-              <div class="floating-snack pack-4">
-                <img src="{{ asset('keripik_kaca.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Keripik Kaca</div>
-              </div>
-              <div class="floating-snack pack-5">
-                <img src="{{ asset('jengkol.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Jengkol</div>
-              </div>
-              <div class="floating-snack pack-6">
-                <img src="{{ asset('usus.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Usus</div>
-              </div>
-              <div class="floating-snack pack-7">
-                <img src="{{ asset('siomay_kering.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Usus Kering</div>
-              </div>
-              <div class="floating-snack pack-8">
-                <img src="{{ asset('sosis.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Sosis</div>
-              </div>
-              <div class="floating-snack pack-9">
-                <img src="{{ asset('krupuk_seblak.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Kerupuk Seblak</div>
-              </div>
-              <div class="floating-snack pack-10">
-                <img src="{{ asset('otak_otak.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
-                <div class="caption">Otak otak</div>
-              </div>
+                <div class="floating-snack pack-1">
+                    <img src="{{ asset('makaroni_pipa.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Makaroni Pipa</div>
+                </div>
+                <div class="floating-snack pack-2">
+                    <img src="{{ asset('makaroni_spiral.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Makaroni Spiral</div>
+                </div>
+                <div class="floating-snack pack-3">
+                    <img src="{{ asset('mie_gulung.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Mie Gulung</div>
+                </div>
+                <div class="floating-snack pack-4">
+                    <img src="{{ asset('keripik_kaca.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Keripik Kaca</div>
+                </div>
+                <div class="floating-snack pack-5">
+                    <img src="{{ asset('jengkol.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Jengkol</div>
+                </div>
+                <div class="floating-snack pack-6">
+                    <img src="{{ asset('usus.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Usus</div>
+                </div>
+                <div class="floating-snack pack-7">
+                    <img src="{{ asset('siomay_kering.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Usus Kering</div>
+                </div>
+                <div class="floating-snack pack-8">
+                    <img src="{{ asset('sosis.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Sosis</div>
+                </div>
+                <div class="floating-snack pack-9">
+                    <img src="{{ asset('krupuk_seblak.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Kerupuk Seblak</div>
+                </div>
+                <div class="floating-snack pack-10">
+                    <img src="{{ asset('otak_otak.jpg') }}" alt="Makaroni Pedas Gila" class="snack-img">
+                    <div class="caption">Otak otak</div>
+                </div>
             </div>
-
-            <!-- NGEMILMU INFO CAROUSEL (swipe cards) -->
-            <div class="ngemilmu-carousel">
-              <div class="ngemilmu-track" id="ngemilmuTrack">
-
+        </div>
+        <div class="ngemilmu-carousel">
+            <div class="ngemilmu-track" id="ngemilmuTrack">
                 <div class="ngemilmu-card">
-                  <div class="ngemilmu-card-head">
+                    <div class="ngemilmu-card-head">
                     <h3>Menu Mix Pilihan</h3>
-                  </div>
-                  <ul class="ngemilmu-list ngemilmu-price-list">
+                    </div>
+                    <ul class="ngemilmu-list ngemilmu-price-list">
                     <li><span>Size M (Medium)</span><strong>5K</strong></li>
                     <li><span>Size L (Large)</span><strong>7.5K</strong></li>
                     <li><span>Size XL (Xangat Large)</span><strong>10K</strong></li>
@@ -116,52 +114,49 @@
                     <li><span>Size W (Wumbo)</span><strong>20K</strong></li>
                     <li><span>Size Segaban</span><strong>45K</strong></li>
                     <li><span>Size Megalodon</span><strong>90K</strong></li>
-                  </ul>
+                    </ul>
                 </div>
 
                 <div class="ngemilmu-card">
-                  <div class="ngemilmu-card-head">
+                    <div class="ngemilmu-card-head">
                     <h3>Varian Rasa</h3>
-                  </div>
-                  <ul class="ngemilmu-list ngemilmu-tag-list">
+                    </div>
+                    <ul class="ngemilmu-list ngemilmu-tag-list">
                     <li>Original Gamon <span class="ngemilmu-badge">Rekomen</span></li>
                     <li>BBQ</li>
                     <li>Balado</li>
                     <li>Jagung Manis</li>
                     <li>Rumput Laut</li>
                     <li>Keju</li>
-                  </ul>
+                    </ul>
                 </div>
 
                 <div class="ngemilmu-card">
-                  <div class="ngemilmu-card-head">
+                    <div class="ngemilmu-card-head">
                     <h3>Varian Minyak</h3>
-                  </div>
-                  <ul class="ngemilmu-list ngemilmu-tag-list">
+                    </div>
+                    <ul class="ngemilmu-list ngemilmu-tag-list">
                     <li>Minyak Bawang</li>
                     <li>Chili Oil</li>
-                  </ul>
-                  <div class="ngemilmu-note">Bebas Mix Sampai PUAS!!!</div>
+                    </ul>
+                    <div class="ngemilmu-note">Bebas Mix Sampai PUAS!!!</div>
                 </div>
 
                 <div class="ngemilmu-card">
-                  <div class="ngemilmu-card-head">
+                    <div class="ngemilmu-card-head">
                     <h3>Keterangan</h3>
-                  </div>
-                  <ul class="ngemilmu-list ngemilmu-price-list">
+                    </div>
+                    <ul class="ngemilmu-list ngemilmu-price-list">
                     <li><span>Level Pedas 1 - 5</span><strong class="free-tag">FREE</strong></li>
                     <li><span>Setelah Sendok ke-5</span><strong>+1K</strong></li>
                     <li><span>Chili Oil</span><strong>+1K</strong></li>
-                  </ul>
+                    </ul>
                 </div>
-
-              </div>
-              <div class="ngemilmu-dots" id="ngemilmuDots"></div>
             </div>
-
+            <div class="ngemilmu-dots" id="ngemilmuDots"></div>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
 
   <!-- BENEFITS -->
   <section class="benefits scroll-animate fade-up" id="benefits">
@@ -272,36 +267,66 @@
       <div class="testi-track" id="testiTrack">
         <div class="testi-card">
           <div class="quote-mark">"</div>
-          <p>Gila sih, Pedas Gila beneran bikin nangis tapi tangan gak bisa berhenti ngambil. Bumbunya tebel banget dan renyahnya dapet!</p>
-          <div class="testi-user">
-            <div class="avatar">👨</div>
-            <div class="user-info">
-              <strong>Andika Pratama</strong>
-              <span>Pecinta Pedas</span>
-            </div>
-          </div>
-        </div>
-        <div class="testi-card">
-          <div class="quote-mark">"</div>
-          <p>Aku pesen yang Keju Asin buat anak-anak, eh malah bapaknya ikutan ngabisin. Enak banget kejunya premium bukan kaleng-kaleng.</p>
+          <p>Pertama kali coba, puas bgtttt
+                <br>Enakk, bisa campur suka-suka lagi
+                <br>Sangat sukaa.. apalagi sama pelayanan nya, mba nya ramah sangatt
+                    <br>Pasti bakal balik lagi
+            </p>
           <div class="testi-user">
             <div class="avatar">👩</div>
             <div class="user-info">
-              <strong>Siti Aminah</strong>
-              <span>Ibu Rumah Tangga</span>
+              <strong>sasasaa</strong>
             </div>
           </div>
         </div>
         <div class="testi-card">
           <div class="quote-mark">"</div>
-          <p>Definisi anti redflag! Pengirimannya aman, packagingnya keren, dan isinya banyak banget. Bakal repeat order sih ini fix.</p>
+            <p>Murah banget, enak bebas mix lagi….
+                <br>bakalan langganan soalnya solusi bgt buat yg pengen cari cemilan tp pengen hemat juga, secara 5k udah bisa mix!.
+            </p>
           <div class="testi-user">
-            <div class="avatar">🧑</div>
+            <div class="avatar">👩</div>
             <div class="user-info">
-              <strong>Budi Santoso</strong>
-              <span>Mahasiswa</span>
+              <strong>Alviony Charisa Putri</strong>
             </div>
           </div>
+        </div>
+        <div class="testi-card">
+            <div class="quote-mark">"</div>
+            <p>Makananyaaa enaksss mantapp terus pelayanan nya gercep ramah baikkk dan ada stiker yg lucuuu dengan kata" terimakasih doanyaaa🤍😋</p>
+            <div class="testi-user">
+                <div class="avatar">👩</div>
+                <div class="user-info">
+                    <strong>Afifah Nur Halimah</strong>
+                    <span>Mahasiswa</span>
+                </div>
+            </div>
+        </div>
+        <div class="testi-card">
+            <div class="quote-mark">"</div>
+            <p>
+                kesini karena unik banget bisa sekali nyemil tapi macem2.
+                <br>ada makaroni, ususu, basreng, cimol, kripca, bwanyak bgtt. asik banget kerja sambil nyemil gini huhu
+                <br>bisa ditambah bumbu lagi, bisa di cicipin dulu. pas udah di mix bumbu juga bisa di cicipin lagi sampe kita ngerasa passs dann puassss, gak bercanda nih😭
+            </p>
+            <div class="testi-user">
+                <div class="avatar">👩</div>
+                <div class="user-info">
+                    <strong>Vina Putri</strong>
+                    <span>Mahasiswa</span>
+                </div>
+            </div>
+        </div>
+        <div class="testi-card">
+            <div class="quote-mark">"</div>
+            <p>mbanya ramah bgt, bisa pilih mau pake apa aja, kalau sudah dibumbuin sama mbanya nanti disuruh nyicip udah pas belum sama selera kita kalau belum nanti ditambah bumbu lagi sama mbanya</p>
+            <div class="testi-user">
+                <div class="avatar">👩</div>
+                <div class="user-info">
+                    <strong>Zaks</strong>
+                    <span>Mahasiswa</span>
+                </div>
+            </div>
         </div>
       </div>
     </div>
@@ -309,7 +334,7 @@
   </section>
 
   <!-- FAQ -->
-  <section class="faq-section scroll-animate fade-up">
+  {{-- <section class="faq-section scroll-animate fade-up">
     <div class="faq-container">
       <div class="faq-text">
         <h2>Pertanyaan yang Sering Diajukan</h2>
@@ -332,7 +357,7 @@
         <div class="faq-badge">100% Halal</div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
   <!-- FIND US -->
   <section class="findus-section scroll-animate fade-up" id="lokasi">
@@ -355,10 +380,10 @@
         <a href="https://maps.app.goo.gl/MZCSuCQ17DqymuwF8" class="btn-location">Lihat Peta</a>
       </div>
       <div class="outlet-card">
-        <div class="outlet-city">📍 Cabang UIN</div>
-        <h4>Makaroni Gamon UIN</h4>
-        <p>Jl. Duwet IX No.13, Karangasem, Kota Surakarta<br>Buka: 08.00 - 23.00 WIB</p>
-        <a href="https://maps.app.goo.gl/trrgd5kNf1SCKkD5A" class="btn-location">Lihat Peta</a>
+        <div class="outlet-city">📍 Cabang Penumping</div>
+        <h4>Makaroni Gamon Penumping</h4>
+        <p>Jl. Kebangkitan Nasional No.56, Penumping, Kec. Laweyan, Kota Surakarta<br>Buka: 08.00 - 23.00 WIB</p>
+        <a href="https://maps.app.goo.gl/f79AbEhG5iis2zTk6?g_st=iw" class="btn-location">Lihat Peta</a>
       </div>
       <div class="outlet-card">
         <div class="outlet-city">📍 Cabang Nusukan</div>
@@ -463,7 +488,7 @@
         <!-- Catatan -->
         <div class="order-group">
           <label for="orderNote" class="order-label">Catatan Tambahan <small>(opsional)</small></label>
-          <textarea id="orderNote" class="order-input" rows="3" placeholder="Contoh: alamat pengiriman, request khusus, dll."></textarea>
+          <textarea id="orderNote" class="order-input" rows="3" placeholder="Contoh: request khusus, dll."></textarea>
         </div>
 
         <p class="order-error" id="orderError"></p>
